@@ -1,0 +1,41 @@
+.container_Page6{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 100px ;
+}
+
+.Text_container_Page6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content:space-between;
+
+}
+.secondary_Page6{
+    color: var(--secondary);
+    font-size: 24px;
+}
+
+.text_cont{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.footer_Page6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 50%;
+    margin-left: 50px;
+}
+.footer_Page6:hover{
+    
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: 50ms;
+    cursor: pointer;
+}

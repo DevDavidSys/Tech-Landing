@@ -1,0 +1,61 @@
+@font-face {
+  font-family: COOPER HEWITT;
+  src: url('./Fonts/cooper-hewitt/CooperHewitt-Medium.otf');
+}
+@font-face {
+  font-family: Ailerion;
+  src: url('./Fonts/aileron/Aileron-Regular.otf');
+}
+:root{
+  --primary:#004A98;
+  --secondary:#42B8FD;
+  --terciary:#FFFFFF;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  color: var(--terciary);
+  text-align: center;
+  min-height: 100vh;
+  background-color: var(--primary) ;
+  padding: 2vw;
+  font-family: Ailerion;
+}
+.icon{
+  margin-right: 20px;
+}
+.secondary{
+  color: var(--secondary);
+}
+.text_center{
+  font-size: 81px;
+  margin-bottom: 20px;
+
+}
+.header_icon{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.centralize{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.consultation{
+
+  border: 1px solid var(--terciary);
+  padding: 20px;
+  cursor: pointer;
+}

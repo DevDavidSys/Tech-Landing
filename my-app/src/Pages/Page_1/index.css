@@ -1,0 +1,75 @@
+@font-face {
+    font-family: COOPER HEWITT;
+    src: url('../../Fonts/cooper-hewitt/CooperHewitt-Medium.otf');
+  }
+  @font-face {
+    font-family: Ailerion;
+    src: url('../../Fonts/aileron/Aileron-Regular.otf');
+  }
+  :root{
+    --primary:#004A98;
+    --secondary:#005dbf;
+    --terciary:#42B8FD;
+    --quarter:#FFFFFF;
+  
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .App {
+    color: var(--quarter);
+    text-align: center;
+    min-height: 100vh;
+    background-color: var(--primary) ;
+    padding: 2vw;
+    font-family: Ailerion;
+  }
+  .page1_container{
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+
+  }
+  .icon{
+    display:inline-flex;
+  }
+  .secondary{
+    color: #42B8FD;
+  }
+  .text_center{
+    font-size: 81px;
+    margin-top: 80px;
+  
+  }
+  .header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .header_icon{
+    display: block;
+    font-size: 20px;
+  }
+  .centralize{
+    display: flex;
+    
+  }
+  .consultation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--quarter);
+    margin-top: 100px;
+    padding: 20px;
+    cursor: pointer;
+    width: 40%;
+
+  }
+
+  .consultation:hover{
+    background-color: rgba(255, 255, 255, 0.377);
+    transition: 300ms;
+  }

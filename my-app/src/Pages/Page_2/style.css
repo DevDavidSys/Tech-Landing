@@ -1,0 +1,23 @@
+
+.page2_container{
+    background-color:#005DBF;
+}
+
+.Header_Page2{
+    font-size: 46px;
+    display: flex;
+    text-align: left;
+    margin-left: 2vw;
+}
+
+.text_container_Page2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 80px;
+}
+.img_page2{
+    width: 50%;
+    margin: 0 200px 0px  0;
+}

@@ -1,0 +1,30 @@
+:root{
+    --primary:#004A98;
+    --secondary:#42B8FD;
+    --terciary:#FFFFFF;
+  
+  }
+
+.Page3_container{
+text-align: left;
+padding: 30px;
+
+}
+.Header_Page3{
+  font-size: 46px;
+  margin-bottom: 40px;
+}
+.img_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.titlecontainer_Page3{
+  margin-top: 20px ;
+  margin-bottom: 10px;
+  color: var(--secondary);
+}
+.img{
+  margin: 20px ;
+}
